@@ -1,0 +1,11 @@
+ignores: [
+  "@tevm/evm",
+  "@tevm/vm",
+  "@tevm/blockchain",
+  "@tevm/jsonrpc",
+  "@tevm/errors",
+  "@tevm/state",
+  "@tevm/actions-types",
+  "@tevm/procedures-types"
+]
+skip-missing: true

@@ -1,0 +1,41 @@
+---
+title: Tevm docs
+description: Build applications powered by the EVM, simplified
+template: splash
+hero:
+  tagline: Build applications powered by the EVM, simplified
+  image:
+    file: ../../assets/logo.webp
+  actions:
+    - text: Quick start
+      link: /getting-started/quick-start/
+      icon: right-arrow
+      variant: primary
+    - text: Reference
+      link: /learn/reference
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Try now!
+
+<iframe frameborder="0" width="100%" height="500" src="https://stackblitz.com/~/github.com/evmts/tevm-vite-wagmi-example"></iframe>
+
+## Features
+
+<CardGrid>
+	<Card title="Tevm memory devnet" icon="pencil">
+		[EVM execution and forking](/learn/clients) akin to [anvil](https://github.com/foundry-rs/foundry/tree/master/crates/anvil)
+	</Card>
+	<Card title="Solidity scripting" icon="add-document">
+		A powerful [solidity scripting](/learn/scripting) support akin to [foundry scripts](https://book.getfoundry.sh/tutorials/solidity-scripting)
+	</Card>
+	<Card title="Solidity imports" icon="setting">
+		[Importing solidity files](/learn/solidity-imports) directly into TypeScript. Never juggle an ABI again!
+	</Card>
+	<Card title="Runs in all environments" icon="open-book">
+		Tevm runs in the browser, node.js, and bun
+	</Card>
+</CardGrid>
